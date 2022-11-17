@@ -1,0 +1,22 @@
+graph {
+    padding : 40px;
+}
+
+node {
+    size : 16px;
+    text-size : 14px;
+    text-alignment : at-right;
+    text-offset : 5px ,10px;
+}
+
+edge.back {
+    fill-color : blue;
+}
+
+edge.forward {
+    fill-color : red;
+}
+
+edge.crossing {
+    fill-color : grey;
+}
