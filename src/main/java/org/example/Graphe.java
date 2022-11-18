@@ -14,10 +14,11 @@ public class Graphe {
         System.setProperty("org.graphstream.ui", "swing");
         Graph graph = new SingleGraph("TP2 - Graphe");
 
-        graph.read("D:/Graphes/TP1Graph/src/main/java/org/example/data/graph.dgs");
-        graph.setAttribute("ui.stylesheet", "url('D:/Graphes/TP1Graph/src/main/java/org/example/data/style.css')");
+        graph.read("D:/Graphes/TP2Graph/src/main/java/org/example/data/graph.dgs");
+        graph.setAttribute("ui.stylesheet", "url('D:/Graphes/TP2Graph/src/main/java/org/example/data/style.css')");
         graph.setAttribute("ui.quality");
         graph.setAttribute("ui.antialias");
+
 
         DephfirstSeach dfs = new DephfirstSeach();
         dfs.init(graph);
