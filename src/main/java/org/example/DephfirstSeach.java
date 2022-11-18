@@ -4,6 +4,9 @@ import org.graphstream.algorithm.Algorithm;
 import org.graphstream.graph.Graph;
 import org.graphstream.graph.Node;
 
+import java.util.Deque;
+import java.util.LinkedList;
+
 public class DephfirstSeach implements Algorithm {
     private Graph graph;
     int clock;
@@ -23,7 +26,7 @@ public class DephfirstSeach implements Algorithm {
 
     }
     public int getPre(Node v){
-        return v.getAttribute("post",Integer.class);
+        return v.getAttribute("pre", Integer.class);
     }
     public int getPost(Node v){
         return v.getAttribute("post", Integer.class);

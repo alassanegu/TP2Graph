@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="396ec646-2903-4ba0-bc0f-2028ef12695b" name="Changes" comment="autre commit">
+    <list default="true" id="396ec646-2903-4ba0-bc0f-2028ef12695b" name="Changes" comment="autre commit 2">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/StronglyConnectedComponents.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DephfirstSeach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DephfirstSeach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Explorer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Explorer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Graphe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Graphe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/data/graph.dgs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/data/graph.dgs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/data/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/data/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +64,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668712720416</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="autre commit 2">
+      <created>1668755256835</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1668755256835</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -77,6 +87,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="autre commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="autre commit" />
+    <MESSAGE value="autre commit 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="autre commit 2" />
   </component>
 </project>

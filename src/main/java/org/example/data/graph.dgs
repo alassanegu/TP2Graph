@@ -21,8 +21,9 @@ ae DG d < g
 ae DH d > h
 ae GH g < h
 ae EH e > h
-ae HI h > i
 ae HF h > f
 ae IF i < f
 ae FC f < c
+ae HI h > i
+ae IH i > h
 

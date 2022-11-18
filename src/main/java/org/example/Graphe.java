@@ -18,14 +18,15 @@ public class Graphe {
         graph.setAttribute("ui.stylesheet", "url('D:/Graphes/TP2Graph/src/main/java/org/example/data/style.css')");
         graph.setAttribute("ui.quality");
         graph.setAttribute("ui.antialias");
+        //graph.forEach(n -> n.setAttribute("ui.label", n.getId()));
 
 
         DephfirstSeach dfs = new DephfirstSeach();
         dfs.init(graph);
         dfs.compute();
-        graph.forEach(v -> v.setAttribute("ui.label", v.getId() + " " + dfs.getPre(v) +
-                " " + dfs.getPost(v)));
-        graph.edges().forEach(e -> {
+        graph.forEach(v -> v.setAttribute("ui.label",
+                v.getId() + " " + dfs.getPre(v) + " " + dfs.getPost(v)));
+      /* graph.edges().forEach(e -> {
             Node u = e.getSourceNode();
             Node v = e.getTargetNode();
             if (dfs.getPre(u) < dfs.getPre(v) && dfs.getPost(v) < dfs.getPost(u)){
@@ -35,7 +36,15 @@ public class Graphe {
             }else {
                 e.setAttribute("ui.class","crossing");
             }
-        });
+        });*/
+
+
+        /*StronglyConnectedComponents scc = new StronglyConnectedComponents();
+        scc.init(graph);
+        scc.compute();
+        graph.forEach(v -> v.setAttribute("ui.label", v.getId() + " " + scc.getScc(v) ));*/
+
+
 
 
         graph.display(false);
